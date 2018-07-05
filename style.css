@@ -81,6 +81,18 @@ input[type="submit"] {
     border: none;
     position: relative;
     left: 160px;
-    top: -32px;
+    top: -33px;
     background: url(img/icon4.png) no-repeat 50% 50%;
+}
+
+.cart {
+	width: 40px;
+    height: 40px;
+    background: white;
+    position: relative;
+    left: 260px;
+    top: -45px;
+}
+.cart img {
+	margin: 10px;
 }
