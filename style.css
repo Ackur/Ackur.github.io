@@ -101,3 +101,31 @@ input[type="submit"] {
 .cart img {
 	margin: 10px;
 }
+
+.podmenu {
+	display: none;
+	position: absolute;
+    top: 50px;
+    left: -1px;
+}
+
+.podmenu li {
+	float: none;
+	width: 293px;
+}
+
+.podmenu li a {
+	color: white;
+	background: #2c71b8;
+	height: 40px;
+	/*text-align: left;*/
+}
+
+.podmenu li a:hover {
+	color: #2c71b8;
+	background: white;
+}
+
+li:hover ul {
+	display: block;
+}
