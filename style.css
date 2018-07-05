@@ -59,3 +59,28 @@ body {
 	color: white;
 	background: #2c71b8;
 }
+
+.search {
+	width: 200px;
+	height: 40px;
+	margin: 5px 30px;
+	border: 1px solid #2c71b8;
+}
+
+input[type="search"] {
+	border: none;
+	width: 198px;
+	height: 38px;
+	background: rgba(255,255,255,0);
+	color: #2c71b8;
+}
+
+input[type="submit"] {
+	width: 30px;
+    height: 30px;
+    border: none;
+    position: relative;
+    left: 160px;
+    top: -32px;
+    background: url(img/icon4.png) no-repeat 50% 50%;
+}
