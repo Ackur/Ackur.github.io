@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width", initial-scale=1 />
-    <title>DZ8 S-P</title>
+    <title>DZ-L10</title>
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	
 	<header class="header">
 		<div class="conteiner">
 			<div class="row">
 				<div class="col-md-3">
-					<a href=""><img id="logo" src="img/logo.png" alt="logo"></a>
+					<a href=""><img id="logo" src="img/logo.png" alt=""></a>
 				</div>
 				<div class="col-md-6">
-					<ul class="menu row">
+					<ul class="menu">
 						<li><a href="">Home</a></li>
-						<li><a id="Products" href="">Products</a>
+						<li><a href="" id="Products">Products <span class="caret"></span></a>
 							<ul class="podmenu">
 								<li><a href="">Lorem ipsum dolor</a></li>
 								<li><a href="">Sit amet</a></li>
@@ -31,32 +31,34 @@
 						</li>
 						<li><a href="">Payment</a></li>
 						<li><a href="">Shipping</a></li>
-					</ul>					
+					</ul>
 				</div>
 				<div class="col-md-3">
-					<div class="search">
-						<form action="">
-							<div>
-								<input type="search" placeholder="search" name="search">
+					<div class="row">
+						<div class="col-md-9">
+								<form action="">
+									<div class="search">
+											<input type="search" placeholder="search" name="search">
+										<div class="subsearch">
+											<input type="submit" name="SB" value="">
+										</div>
+									</div>
+								</form>
+						</div>
+						<div class="col-md-3">
+							<div class="cart">
+								<a href="">	<img src="img/icon1.png" alt=""> </a>
+								<div id="cartnum">
+									<b>4</b>
+								</div>
 							</div>
-							<div class="subsearch">
-								<input type="submit" name="SB" value="">
-							</div>
-						</form>
-					</div>
-					<div class="cart">
-						<a href="">	<img src="img/icon1.png" alt=""> </a>
-						<div id="cartnum">
-							<b>4</b>
 						</div>
 					</div>
-
-				</div>				
+				</div>
 			</div>
 		</div>
 	</header>
 	<main class="main">main</main>
 	<footer class="footer">footer</footer>
-
 </body>
 </html>
