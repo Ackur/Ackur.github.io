@@ -22,17 +22,6 @@ body {
 	font-family: Roboto-Light;
 }
 
-[class*="col-"] {
-	padding: 0;
-}
-.row {
-	margin: 0;
-}
-
-.menu {
-	padding: 0px 8px;
-}
-
 .menu li {
 	float: left;
 	width: 25%;
@@ -68,7 +57,7 @@ body {
 
 .podmenu li {
 	float: none;
-	width: 285px;
+	width: 286px;
 	border: none;
 	background: #2c71b8;
 }
@@ -105,19 +94,14 @@ li:hover ul {
 	float: right;
 }
 
-.col-md-6+.col-md-3 {
-	padding: 0 0 0 22px;
-}
-
 .search {
 	margin: 4px 0px;
 	border: 1px solid #2c71b8;
-	
 }
 
 input[type="search"] {
 	border: none;
-	width: 158px;
+	width: 153px;
 	height: 40px;
 	padding:  0 0 0 20px;
 	background: rgba(255,255,255,0);
@@ -139,28 +123,33 @@ input[type="search"]::-webkit-input-placeholder {
 input[type="submit"] {
     border: none;
     background: url(img/icon4.png) no-repeat;
-    margin: 9px;
+    margin: 8px;
     width: 15px;
 }
 
 .cart {
 	width: 40px;
     height: 40px;
-    margin: 5px 0px 5px 30px;
+    margin: 5px 0px;
     background: white;
+}
+
+.cart a {
+	display: block;
 }
 
 .cart img {
 	margin: 10px;
+	position: relative;
 }
 
 #cartnum {
 	width: 20px;
 	height: 20px;
 	padding: 2px 6px;
-	position: relative;
-	top: -53px;
-    right: 12px;
+	position: absolute;
+	top: -5px;
+    right: 50px;
 	color: white;
 	background: #2870ba;
 	border-radius: 	10px;
