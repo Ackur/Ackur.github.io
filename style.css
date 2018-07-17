@@ -1,19 +1,19 @@
 @font-face {
     font-family: Roboto-Light;
     src: url(fonts/Roboto-Light.ttf);
+    font-family: Roboto-Thin;
+    src: url(fonts/Roboto-Thin.ttf);
+/*    font-family: Roboto-Bold;
+    src: url(fonts/Roboto-Bold.ttf);*/
    }
 
 body {
 	background-image: url(img/patt.png);
+	width: 1920px;
 }
 
 #logo {
 	    padding: 7px 0px 1px 0px;
-}
-
-.conteiner {
-	width: 1170px;
-	margin: 0 auto;
 }
 
 .header	{
@@ -53,11 +53,12 @@ body {
 	position: absolute;
     top: 50px;
     left: -1px;
+    z-index: 1;
 }
 
 .podmenu li {
 	float: none;
-	width: 286px;
+	width: 279px;
 	border: none;
 	background: #2c71b8;
 }
@@ -90,10 +91,6 @@ li:hover ul {
 	display: block;
 }
 
-.col-md-9 div {
-	float: right;
-}
-
 .search {
 	margin: 4px 0px;
 	border: 1px solid #2c71b8;
@@ -101,7 +98,7 @@ li:hover ul {
 
 input[type="search"] {
 	border: none;
-	width: 153px;
+	width: 147px;
 	height: 40px;
 	padding:  0 0 0 20px;
 	background: rgba(255,255,255,0);
@@ -118,6 +115,7 @@ input[type="search"]::-webkit-input-placeholder {
     height: 30px;
     background: #2c71b8;
     margin: 5px;
+    float: right;
 }
 
 input[type="submit"] {
@@ -154,4 +152,95 @@ input[type="submit"] {
 	background: #2870ba;
 	border-radius: 	10px;
 	font-size: 12px;
+}
+
+.baner {
+	height: 400px; 
+	background-color: rgba(033,066,099,0.4);
+	border-bottom: 1px solid white;
+}
+
+.baner p {
+	font-family: Roboto-Thin;
+	font-size: 80px;
+	color: white;
+	text-align: center;
+	line-height: 5;
+	letter-spacing: 15px;
+}
+
+.DeviceTypeF {
+	height: 845px;
+	border-right: 1px solid white;
+	background-color: rgba(102,153,204,0.4);
+}
+
+.product-card {
+	height: 650px;
+	border: 1px solid white;
+	margin: 15px 0px;
+}
+
+.pc-header {
+	height: 180px;
+	background-color: rgba(202,219,237,0.7);
+}
+.pc-header img {
+	padding: 45px 78px;
+}
+
+.pc-main {
+	background-color: rgba(44,113,184,0.7);
+	height: 466px;
+    margin: 1px;
+}
+
+.pc-text {
+	color: white;
+	margin: 0 15px;
+	font-size: 20px;
+}
+
+.pc-text p:first-child {
+	font-size: 30px;
+}
+
+.pc-price {
+	font-size: 48px;
+	text-transform: bold;
+	text-align: center;
+	color: white;
+}
+
+.pc-button {
+	border: 1px solid white;
+	width: 210px;
+	height: 50px;
+	margin: 15px auto;
+	text-align: center;
+	line-height: 2.5;
+}
+
+.pc-button a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	display: block;
+}
+
+.pc-button+.pc-button {
+	background: rgba(86,141,198,0.9);
+	text-align: right;
+}
+
+.pc-button+.pc-button div {
+	float: left;
+}
+
+.pc-button-t {
+	width: 163px;
+}
+
+.button-img {
+	margin: 6px 6px;
 }
