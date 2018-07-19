@@ -1,15 +1,9 @@
-@font-face {
-    font-family: Roboto-Light;
-    src: url(fonts/Roboto-Light.ttf);
-    font-family: Roboto-Thin;
-    src: url(fonts/Roboto-Thin.ttf);
-/*    font-family: Roboto-Bold;
-    src: url(fonts/Roboto-Bold.ttf);*/
-   }
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,700');
 
 body {
 	background-image: url(img/patt.png);
-	width: 1920px;
+	font-family: 'Roboto';
+	font-weight: 400;
 }
 
 #logo {
@@ -19,7 +13,6 @@ body {
 .header	{
 	padding: 25px 0;
 	background-color: rgba(255,255,255,0.75);
-	font-family: Roboto-Light;
 }
 
 .menu li {
@@ -58,7 +51,7 @@ body {
 
 .podmenu li {
 	float: none;
-	width: 279px;
+	width: 278px;
 	border: none;
 	background: #2c71b8;
 }
@@ -105,7 +98,6 @@ input[type="search"] {
 }
 
 input[type="search"]::-webkit-input-placeholder {
-    font-family: Roboto-Light;
     color: #2c71b8;
     font-size: 	18px;
 
@@ -161,12 +153,13 @@ input[type="submit"] {
 }
 
 .baner p {
-	font-family: Roboto-Thin;
 	font-size: 80px;
 	color: white;
 	text-align: center;
 	line-height: 5;
 	letter-spacing: 15px;
+	font-family: 'Roboto';
+	font-weight: 100;
 }
 
 .DeviceTypeF {
@@ -184,15 +177,48 @@ input[type="submit"] {
 .pc-header {
 	height: 180px;
 	background-color: rgba(202,219,237,0.7);
+	border-bottom: 1px solid white;
+	position: relative;
 }
-.pc-header img {
+.pc-header-img {
 	padding: 45px 78px;
+}
+
+.pc-header-icon1 {
+	width: 30px;
+	height: 30px;
+	border: 1px solid #2c71b8;
+	position: absolute;
+	top: 9px;
+    right: 10px;
+}
+
+.pc-header-icon2 {
+	width: 30px;
+	height: 30px;
+	border: 1px solid #2c71b8;
+	position: absolute;
+	top: 49px;
+    right: 10px;
+}
+
+.pc-header-icon1  img {
+	margin: 4px;
+}
+
+.pc-header-icon2  img {
+	margin: 6px 5px;
 }
 
 .pc-main {
 	background-color: rgba(44,113,184,0.7);
 	height: 466px;
     margin: 1px;
+}
+
+.main-title {
+	color: white;
+	font-size: 48px;
 }
 
 .pc-text {
@@ -203,22 +229,26 @@ input[type="submit"] {
 
 .pc-text p:first-child {
 	font-size: 30px;
+	font-family: 'Roboto';
+	font-weight: 700;
 }
 
 .pc-price {
 	font-size: 48px;
-	text-transform: bold;
 	text-align: center;
 	color: white;
+	font-family: 'Roboto';
+	font-weight: 700;
 }
 
 .pc-button {
 	border: 1px solid white;
 	width: 210px;
 	height: 50px;
-	margin: 15px auto;
+	margin: 10px auto 15px auto;
 	text-align: center;
 	line-height: 2.5;
+	box-sizing: content-box;
 }
 
 .pc-button a {
@@ -226,21 +256,26 @@ input[type="submit"] {
 	color: white;
 	font-size: 20px;
 	display: block;
+	font-family: 'Roboto';
+	font-weight: 700;
+}
+
+.pc-button a:hover {
+	color: #2c71b8;
+	background: white;
 }
 
 .pc-button+.pc-button {
 	background: rgba(86,141,198,0.9);
-	text-align: right;
-}
-
-.pc-button+.pc-button div {
-	float: left;
-}
-
-.pc-button-t {
-	width: 163px;
+	position: relative;
 }
 
 .button-img {
-	margin: 6px 6px;
+	background: url(img/icon2.png) no-repeat;
+	width: 20px;
+	height: 20px;
+	margin: 15px 5px;
+	position: absolute;
+	top: 0px;
+    right: 10px;
 }
