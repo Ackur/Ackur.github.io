@@ -1,0 +1,61 @@
+:root {
+  --color-white: #ffffff;
+  --color-light: #535252;
+  --color-black: #000000;
+  --color-warning: #ff9c1a;
+  --color-warning-light: #ffebd1;
+  --color-dark: #0b0909;
+  --color-dark-red: #e80505;
+  --bg-main: #f2f5f9;
+  --bg-main-rgb: 242 245 249;
+  --bg-gray: #f2f7fc;
+  --bg-gray-light: #f8fbfb;
+  --bg-gray-two: #e1e8ef;
+  --bg-gray-three: #e3e3e3;
+
+  --bg-accent-gradient: linear-gradient(91deg, var(--color-warning) 7.92%, var(--color-dark-red) 108.2%);
+
+  /** Dark theme primary colors */
+  --color-primary-a0: #ff9c1a;
+  --color-primary-a10: #ffa73d;
+  --color-primary-a20: #ffb257;
+  --color-primary-a30: #ffbd70;
+  --color-primary-a40: #ffc888;
+  --color-primary-a50: #ffd39f;
+
+  /** Dark theme surface colors */
+  --color-surface-a0: #121212;
+  --color-surface-a10: #282828;
+  --color-surface-a20: #3f3f3f;
+  --color-surface-a30: #575757;
+  --color-surface-a40: #717171;
+  --color-surface-a50: #8b8b8b;
+
+  /** Dark theme colors */
+  --color-surface-mixed-a0: #271e16;
+  --color-surface-mixed-a0-rgb: 39 30 22;
+  --color-surface-mixed-a10: #3c332b;
+  --color-surface-mixed-a20: #514942;
+  --color-surface-mixed-a30: #68605a;
+  --color-surface-mixed-a40: #7f7973;
+  --color-surface-mixed-a50: #98928d;
+}
+
+:root {
+  --font-poppins: "Poppins", sans-serif;
+  --font-raleway: "Raleway", sans-serif;
+  --font-cursive: "Pacifico", cursive;
+}
+
+:root {
+  --sm: 576px;
+  --md: 768px;
+  --lg: 992px;
+  --xl: 1200px;
+  --xxl: 1400px;
+}
+
+:root {
+  --default-header-height: 84px;
+  --app-container-padding: 15px;
+}
