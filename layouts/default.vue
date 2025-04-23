@@ -31,6 +31,13 @@ const showDefaultNavbar = computed(() => {
   position: relative;
   padding-bottom: 15px;
 
+  .default-layout--navbar {
+    display: flex;
+    @media (max-width: 1024px) {
+      display: none;
+    }
+  }
+
   .default-layout--main {
     display: grid;
     grid-template-columns: minmax(300px, 400px) 1fr;

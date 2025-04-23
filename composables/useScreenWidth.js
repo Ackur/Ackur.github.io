@@ -1,7 +1,7 @@
 import { ref } from "vue";
 
 export const useScreenWidth = () => {
-  const width = ref(window?.innerWidth || 500);
+  const width = ref(window?.innerWidth || 1024);
 
   if (!window) return width;
 
