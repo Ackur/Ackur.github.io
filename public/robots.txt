@@ -1,0 +1,4 @@
+User-agent: *
+Crawl-delay: 1
+Host: https://ackur.github.io
+Sitemap: https://ackur.github.io/sitemap.xml
